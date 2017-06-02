@@ -6,9 +6,9 @@ import java.io.*;
 import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
-public class GrayScaleMultiple {
+public class GrayScale2 {
    public static int compteur = 0;
-   public static void GrayScaleMultiple(String fileName) {
+   public static void GrayScale2(String fileName) {
 	BufferedImage  image;
 	int width;
 	int height;
@@ -59,9 +59,9 @@ public class GrayScaleMultiple {
    
    public static void main(String args[]) throws IOException 
    {
-      GrayScaleMultiple(args[0]);
+      GrayScale2(args[0]);
 	  BlackAndWhite(args[0]);
-	  GrayScaleMultiple(args[1]);
+	  GrayScale2(args[1]);
 	  BlackAndWhite(args[1]);
    }
 }
